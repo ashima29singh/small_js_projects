@@ -1,0 +1,40 @@
+.tax-calc{
+    width: 300px;
+    margin: auto;
+}
+.form-section{
+   
+    margin: auto;
+}
+.tax{
+    /* display: flex; */
+    margin-bottom: 20px;
+    input{
+        width: 100%;
+    }
+}
+.age-section{
+    /* display: flex; */
+    margin-bottom: 20px;
+    input{
+        width: 100%;
+    }
+   
+}
+.gender-section{
+    display: flex;
+    width: 200px;
+    
+}
+.male-section{
+    display: flex;
+    margin: auto;
+}
+.female-section{
+    display: flex;
+    margin: auto;
+}
+.bt{
+    cursor: pointer;
+    display: block;padding-left: 30%;
+}

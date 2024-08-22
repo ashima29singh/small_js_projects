@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Filterable Gallery</h2>
+        <div class="menu">
+            <a href="#" class="btn" onclick="btn_click('all')" data-filter="all">All</a>
+            <a href="#" class="btn"  onclick="btn_click('logo')" data-filter="logo">Logo Design</a>
+            <a href="#" class="btn"  onclick="btn_click('web')" data-filter="web">Web Design</a>
+            <a href="#" class="btn" onclick="btn_click('mobile')" data-filter="mobile">Mobile Apps</a>
+        </div>
+        <div class="box" id="store-items">
+            <div class="store-item web">
+                <img src="../web1.jpg" class="store-img">
+            </div>
+            <div class="store-item logo">
+                <img src="../logo1.jpg" class="store-img" height="200px">
+            </div>
+            <div class="store-item mobile">
+                <img src="../mobile1.jpg" class="store-img" height="200px">
+            </div>
+            <div class="store-item web">
+                <img src="../web2.jpg" class="store-img">
+            </div>
+            <div class="store-item logo">
+                <img src="../logo2.jpg" class="store-img">
+            </div>
+            <div class="store-item mobile">
+                <img src="../mobile2.jpg" class="store-img">
+            </div>
+            <div class="store-item web">
+                <img src="../web3.jpg" class="store-img">
+            </div>
+            <div class="store-item logo">
+                <img src="../logo3.jpg" class="store-img" height="212px">
+            </div>
+            <div class="store-item mobile">
+                <img src="../mobile3.jpg" class="store-img" height="200px">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
